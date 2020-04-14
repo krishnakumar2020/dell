@@ -4,7 +4,7 @@
 	<groupId>com.efsavage</groupId>
 	<artifactId>kig</artifactId>
 	<version>1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>Web Application</name>
 	<description>Java Webapp</description>
 	<dependencies>
