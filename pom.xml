@@ -48,7 +48,7 @@
 		<repository>
 			<id>deployment</id>
 			<name>build releases</name>
-			<url>http://34.66.71.201:8081/repository/maven-snapshots//</url>
+			<url>http://34.66.123.122:8081/repository/maven-snapshots//</url>
 		</repository>
 	</distributionManagement>
 </project>
