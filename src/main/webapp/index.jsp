@@ -61,7 +61,7 @@ http://www.tooplate.com/view/2099-scenic
                     <li><a href="#home" class="smoothScroll">Home</a></li>
                     <li><a href="#about" class="smoothScroll">Studio</a></li>
                     <li><a href="#team" class="smoothScroll">Our People</a></li>  
-                    <li><a href="#contact" class="smoothScroll">Let's talk</a></li>
+                    <li><a href="#contact" class="smoothScroll">Chat</a></li>
                </ul>
           </div>
 
