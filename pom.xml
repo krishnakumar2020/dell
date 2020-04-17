@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.efsavage</groupId>
 	<artifactId>kig</artifactId>
-	<version>1-SNAPSHOT</version>
+	<version>2-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Web Application</name>
 	<description>Java Webapp</description>
@@ -48,7 +48,7 @@
 		<repository>
 			<id>deployment</id>
 			<name>build releases</name>
-			<url>http://34.67.25.28:8081/repository/artfitnimber//</url>
+			<url>http://35.238.25.107:8081/repository/artfitnimber//</url>
 		</repository>
 	</distributionManagement>
 </project>
