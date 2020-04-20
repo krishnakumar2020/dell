@@ -1,0 +1,24 @@
+curl -u admin:krishna http://35.238.25.107:8081/repository/artfitnimber/com/efsavage/kig/maven-metadata.xml | grep SNAP |sed -e 's/<version>//' |sed -e 's/<\/version>//'| xargs -n1 | tail -n1
+ID=$(curl -u admin:krishna http://35.238.25.107:8081/repository/artfitnimber/com/efsavage/kig/maven-metadata.xml | grep SNAP |sed -e 's/<version>//' |sed -e 's/<\/version>//'| xargs -n1 | tail -n1)
+curl -u admin:krishna http://35.238.25.107:8081/service/rest/repository/browse/artfitnimber/com/efsavage/kig/2-SNAPSHOT/ | html2text |grep -v UTC | tail -n1
+FINAL=$(curl -u admin:krishna http://35.238.25.107:8081/service/rest/repository/browse/artfitnimber/com/efsavage/kig/2-SNAPSHOT/ | html2text |grep -v UTC | tail -n1)
+FINAL=$(curl -u admin:krishna http://35.238.25.107:8081/service/rest/repository/browse/artfitnimber/com/efsavage/kig/$ID/ | html2text |grep -v UTC | tail -n1)
+echo $FINAL | cut -d - -f1
+echo $FINAL | cut -d - -f2
+echo $FINAL | cut -d - -f3
+A=$(echo $FINAL | cut -d - -f1)
+B=$(echo $FINAL | cut -d - -f2)
+C=$(echo $FINAL | cut -d - -f3)
+echo http://35.238.25.107:8081/repository/artfitnimber/com/efsavage/kig/$ID/kig-$A-$B-$C.war
+URL=$(echo http://35.238.25.107:8081/repository/artfitnimber/com/efsavage/kig/$ID/kig-$A-$B-$C.war)
+D=$(echo $URL | cut -d - -f5|head -c 1)
+wget --user=admin  --password=krishna http://35.238.25.107:8081/repository/artfitnimber/com/efsavage/kig/$ID/kig-$A-$B-$C.war
+
+
+ 
+ 
+ 
+ 
+
+
+
