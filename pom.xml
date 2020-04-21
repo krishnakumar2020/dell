@@ -23,7 +23,7 @@
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
-      <version>3-SNAPSHOT</version>
+      <version>3.1.0</version>
       <scope>provided</scope>
     </dependency>
    </dependencies>
@@ -47,8 +47,8 @@
 	<distributionManagement>
 		<repository>
 			<id>deployment</id>
-			<name>build releases</name>
+			<name>release</name>
 			<url>http://35.192.84.244/:8081/repository/artfitnimber//</url>
 		</repository>
 	</distributionManagement>
-</project>
+</project>	
