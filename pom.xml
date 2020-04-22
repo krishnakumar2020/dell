@@ -3,11 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.efsavage</groupId>
 	<artifactId>demo</artifactId>
-<<<<<<< HEAD
 	<version>9-SNAPSHOT</version>
-=======
-	<version>11-SNAPSHOT</version>
->>>>>>> 0c3526350ac8ee1484e855a9ce5431ee4177ea6c
 	<packaging>war</packaging>
 	<name>Web Application</name>
 	<description>Java Webapp</description>
