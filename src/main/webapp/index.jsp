@@ -58,7 +58,7 @@ http://www.tooplate.com/view/2099-scenic
           <!-- MENU LINKS -->
           <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home" class="smoothScroll">Home</a></li>
+                    <li><a href="#home" class="smoothScroll">House</a></li>
                     <li><a href="#about" class="smoothScroll">Studio</a></li>
                     <li><a href="#team" class="smoothScroll">Our People</a></li>  
                     <li><a href="#contact" class="smoothScroll">Chat</a></li>
