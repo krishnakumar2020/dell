@@ -1,0 +1,6 @@
+projectKey=com.efsavage:demo
+serverUrl=http://34.71.205.139:9000
+serverVersion=6.7.5.38563
+dashboardUrl=http://34.71.205.139:9000/dashboard/index/com.efsavage:demo
+ceTaskId=AXGiavZHdr7JcmsazhHK
+ceTaskUrl=http://34.71.205.139:9000/api/ce/task?id=AXGiavZHdr7JcmsazhHK
