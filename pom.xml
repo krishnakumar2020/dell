@@ -2,8 +2,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.efsavage</groupId>
-	<artifactId>demo</artifactId>
-	<version>9-SNAPSHOT</version>
+	<artifactId>kig</artifactId>
+	<version>3-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Web Application</name>
 	<description>Java Webapp</description>
@@ -47,8 +47,8 @@
 	<distributionManagement>
 		<repository>
 			<id>deployment</id>
-			<name>release</name>
-			<url>http://35.193.101.205:8081/repository/artfitnimber/</url>
+			<name>build releases</name>
+			<url>http://35.184.138.176:8081/repository/maven-snapshots/</url>
 		</repository>
 	</distributionManagement>
-</project>	
+</project>
